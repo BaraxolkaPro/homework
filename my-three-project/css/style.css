@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 40px 10px 5px;
+    width: 350px;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border: none;
+    padding-bottom: 0;
+}
+
+legend {
+    padding: 0;
+    font-weight: 700
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    padding: 5px 0;
+}
+
+input {
+    width: 260px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 260px;
+    min-height: 40px;
+    max-height: 120px;
+    resize: vertical;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.agreement {
+    width: 10px;
+    font-size: 14px;
+    display: inline;
+}
+
+.agreement.input {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 3px;
+    display: block;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}

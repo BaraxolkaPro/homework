@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Практика по формам</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Ваши личные данные</legend>
+                <label>
+                    Ваше имя
+                    <input type="text" placeholder="Имя" name="name" required />
+                </label>
+                <label>
+                    Ваш возраст
+                    <input
+                        type="number"
+                        placeholder="Возраст"
+                        name="birthday"
+                        inputmode="numeric"
+                        required
+                    />
+                </label>
+                <label>
+                    Ваш номер телефона
+                    <input
+                        type="tel"
+                        placeholder="Номер телефона"
+                        name="phone"
+                        inputmode="tel"
+                        required
+                    />
+                </label>
+                <label>
+                    Ваша почта
+                    <input
+                        type="email"
+                        placeholder="Почта"
+                        name="email"
+                        inputmode="email"
+                    />
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Сообщение
+                    <textarea
+                        placeholder="Ваше сообщение"
+                        name="message"
+                    ></textarea>
+                </label>
+                <label class="agreement">
+                    <input
+                        type="checkbox"
+                        name="agreement"
+                        class="agreement input"
+                        required
+                    />
+                    Я принимаю правила
+                </label>
+                <button type="submit">Отправить</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
