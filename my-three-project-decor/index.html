@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Практика по формам</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <form class="form">
+            <fieldset class="form-group">
+                <legend class="form-group-title">Ваши личные данные</legend>
+                <label for="name" class="label">Ваше имя</label>
+                <input
+                    id="name"
+                    class="input"
+                    type="text"
+                    placeholder="Имя"
+                    name="name"
+                    required
+                />
+                <label for="age" class="label">Ваш возраст</label>
+                <input
+                    id="age"
+                    class="input"
+                    type="number"
+                    inputmode="numeric"
+                    placeholder="Возраст"
+                    name="age"
+                    required
+                />
+                <label for="phone" class="label">Ваш номер телефона</label>
+                <input
+                    id="phone"
+                    class="input"
+                    type="tel"
+                    inputmode="tel"
+                    placeholder="Номер телефона"
+                    name="phone"
+                    required
+                />
+                <label for="email" class="label">Ваша почта</label>
+                <input
+                    id="email"
+                    class="input"
+                    type="email"
+                    inputmode="email"
+                    placeholder="Почта"
+                    name="email"
+                    required
+                />
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="message" class="label">Сообщение</label>
+                <textarea
+                    id="message"
+                    class="textarea"
+                    placeholder="Ваше сообщение"
+                    name="message"
+                    required
+                ></textarea>
+                <label class="label checkbox-label"
+                    ><input
+                        type="checkbox"
+                        class="checkbox"
+                        name="checkbox"
+                        required
+                    />
+                    <span class="checkbox-text">Я принимаю правила</span>
+                </label>
+                <button class="button">Отправить</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
