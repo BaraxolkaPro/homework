@@ -1,0 +1,140 @@
+.hero {
+    padding-top: 80px;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    background: url("../template/images/decor-large-icon.svg") repeat-x;
+    bottom: 106px;
+    z-index: -1;
+    height: 48px;
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 140px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-images {
+    display: flex;
+    position: relative;
+}
+
+.text-choose {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 161px;
+    padding: 22px;
+    border: 1px solid #535755;
+    background: rgb(255 255 255 / 0.9);
+    text-align: center;
+    color: #2c332f;
+}
+
+.hero-info h1 {
+    margin-bottom: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.hero-info h1 strong {
+    color: #3596ed;
+}
+
+.hero-info p {
+    max-width: 440px;
+    margin-bottom: 140px;
+}
+
+.button {
+    display: inline-block;
+    padding: 19px 32px;
+    background-color: #3596ed;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.news-container {
+    display: flex;
+    gap: 28px;
+}
+
+.news-article {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3cbd9;
+    overflow: hidden;
+    max-width: 284px;
+}
+
+.news-header img {
+    display: block;
+}
+
+.news-info {
+    padding: 20px 20px 0;
+    margin-bottom: 12px;
+}
+
+.news-header time {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #858e8a;
+    margin-bottom: 8px;
+}
+
+.news-header h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2c332f;
+}
+
+.news-article footer {
+    padding: 0 20px 20px;
+    margin-top: auto;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3596ed;
+}
+
+.news-link::after {
+    content: "";
+    display: inline-block;
+    background-image: url("../template/images/arrow-right-icon.svg");
+    width: 22px;
+    height: 9px;
+    transition: transform 0.2s;
+}
+
+.news-link:hover::after {
+    transform: translate(5px);
+}
