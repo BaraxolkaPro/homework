@@ -1,0 +1,58 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+}
+
+.title {
+    max-width: 596px;
+    margin-bottom: 40px;
+    font-family: Oswald;
+    font-weight: 600;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.title-large {
+    font-size: 48px;
+}
