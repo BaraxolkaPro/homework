@@ -1,0 +1,132 @@
+.article {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.article-title {
+    max-width: 596px;
+    margin-bottom: 40px;
+    font-family: Oswald;
+    font-weight: 600;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.article-title-large {
+    font-size: 48px;
+}
+
+.article-title-medium {
+    font-size: 36px;
+}
+
+.article-mb-1 {
+    margin-bottom: 80px;
+}
+
+.article-mb-2 {
+    margin-bottom: 40px;
+}
+
+.article-mb-3 {
+    margin-bottom: 20px;
+}
+
+.article-decor-wrapper {
+    position: relative;
+}
+
+.article-decor-wrapper-1::before {
+    top: 100px;
+    left: 0;
+}
+
+.article-decor-wrapper-2::before {
+    right: 0px;
+    bottom: 136px;
+}
+
+.article-list {
+    margin-top: 0;
+    padding-left: 16px;
+}
+
+.article-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.article-item::marker {
+    color: #3596ED;
+    font-size: 22px;
+}
+
+.article-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3596ED;
+    border: none;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (width <=992px) {
+    .article-title-large {
+        font-size: 44px;
+    }
+
+    .article-title-medium {
+        font-size: 34px;
+    }
+}
+
+@media (width <=768px) {
+    .article {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .article-mb-1 {
+        margin-bottom: 60px;
+    }
+
+    .article-title-large {
+        font-size: 42px;
+    }
+
+    .article-title-medium {
+        font-size: 32px;
+    }
+
+    .article-play-button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .article-play-button img {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media (width <=768px) {
+    .article-title-large {
+        font-size: 40px;
+    }
+}

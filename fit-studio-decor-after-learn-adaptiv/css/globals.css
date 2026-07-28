@@ -1,0 +1,97 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 375px;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+}
+
+.title {
+    max-width: 596px;
+    margin-bottom: 40px;
+    font-family: Oswald;
+    font-weight: 600;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.title-large {
+    font-size: 48px;
+}
+
+.decor::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(50% - 250px);
+    height: 48px;
+    background: url("../template/images/decor-icon.svg") repeat-x;
+}
+
+@media (width <=992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .decor::before {
+        display: none;
+    }
+}
+
+@media (width <=768px) {
+    .container {
+        max-width: 576px;
+    }
+}
