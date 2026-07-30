@@ -1,0 +1,39 @@
+.header__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d3cbd9;
+}
+
+.header__phone {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #858e8a;
+}
+
+.header__phone-text {
+    margin-bottom: 8px;
+}
+
+.header__phone-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c332f;
+    transition: color 0.2s;
+}
+
+.header__phone-link:hover {
+    color: #3596ED;
+}
