@@ -1,0 +1,11 @@
+@media (width > 768px) {
+    .sizes__title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (width <=768px) {
+    .sizes__title {
+        margin-bottom: 30px;
+    }
+}
