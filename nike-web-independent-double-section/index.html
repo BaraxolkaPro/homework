@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="ru" class="page">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="./icons/nike-favicon-48x48.ico"
+            type="image/x-icon"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script src="./js/index.js" type="module"></script>
+        <script src="./js/fslightbox.js" type="module"></script>
+        <title>Nike Air Mag</title>
+    </head>
+    <body class="page__body">
+        <header class="header">
+            <div class="container header__container">
+                <a href="#" class="header__logo logo"
+                    ><img src="./icons/logo-icon.svg" alt="Логотип Nike"
+                /></a>
+                <nav
+                    class="header__menu menu"
+                    id="header__menu"
+                    aria-label="Главное меню"
+                >
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#air-mag" class="menu__link">Air Mag</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#sizes" class="menu__link">Размеры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#characteristics" class="menu__link"
+                                >Характеристики</a
+                            >
+                        </li>
+                        <li class="menu__item">
+                            <a href="#top-models" class="menu__link"
+                                >Другие ТОП модели</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__controls">
+                    <a href="#" class="header__order">Сделать заказ</a>
+                    <div class="header__actions">
+                        <button
+                            class="header__actions-button"
+                            aria-label="Поиск"
+                            title="Поиск"
+                        >
+                            <svg width="24" height="24">
+                                <use
+                                    class="header__actions-icon"
+                                    href="./icons/sprites.svg#search"
+                                ></use>
+                            </svg>
+                        </button>
+                        <button
+                            class="header__actions-button"
+                            aria-label="Корзина"
+                            title="Корзина"
+                        >
+                            <svg width="24" height="24">
+                                <use
+                                    class="header__actions-icon"
+                                    href="./icons/sprites.svg#cart"
+                                ></use>
+                            </svg>
+                        </button>
+                        <button
+                            class="header__burger burger"
+                            aria-label="Открыть меню"
+                            aria-expanded="false"
+                            aria-controls="header__menu"
+                        >
+                            <svg width="24" height="24">
+                                <use
+                                    class="burger__icon-menu"
+                                    href="./icons/sprites.svg#menu-burger"
+                                ></use>
+                                <use
+                                    class="burger__icon-cross"
+                                    href="./icons/sprites.svg#menu-cross"
+                                ></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__container container">
+                    <header class="hero__header">
+                        <ul class="hero__benefits-list">
+                            <li class="hero__benefits-item">стиль</li>
+                            <li class="hero__benefits-item">cкорость</li>
+                        </ul>
+                        <h1 class="hero__title">
+                            Nike <span class="hero__title-accent">Air</span> Mag
+                        </h1>
+                        <picture>
+                            <source
+                                srcset="./images/nike-air-mag-1-img.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="hero__img"
+                                width="846"
+                                height="713"
+                                src="./images/nike-air-mag-1-img.png"
+                                alt="Кроссовок Nike Air Mag под подошвой которого находится светящийся желтый круг"
+                            />
+                        </picture>
+                    </header>
+                    <footer class="hero__footer">
+                        <a href="#" class="hero__details">
+                            Подробнее
+                            <svg width="24" height="24">
+                                <use
+                                    class="hero__details-icon"
+                                    href="./icons/main-sprite.svg#arrow-right"
+                                ></use>
+                            </svg>
+                        </a>
+                    </footer>
+                </div>
+            </section>
+            <section class="air-mag" id="air-mag">
+                <div class="container">
+                    <h2 class="air-mag__title title-md">Air Mag</h2>
+                    <p class="air-mag__description text-regular">
+                        Это не просто кроссовки — это шаг в будущее. С
+                        уникальным дизайном и передовыми технологиями, эти
+                        кроссовки вдохновлены легендарной киноделией и готовы
+                        сопровождать вас в любых приключениях.
+                    </p>
+                    <div class="air-mag__info-wrapper">
+                        <picture>
+                            <source srcset="./images/nike-air-mag-2-img.webp" />
+                            <img
+                                class="air-mag__img"
+                                src="./images/nike-air-mag-2-img.png"
+                                alt="Кроссовки Nike Air Mag с желтый кольцом вокруг"
+                            />
+                        </picture>
+                        <ul class="air-mag__info-list text-light">
+                            <li class="air-mag__info-item">
+                                инновационная технология амортизации, которая
+                                обеспечивает непревзойденную поддержу суставов
+                            </li>
+                            <li class="air-mag__info-item">
+                                высококачественные синтетические материалы
+                                для долговечности и комфорта
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="sizes section" id="sizes">
+                <div class="container">
+                    <h2 class="sizes__title title-md section-title">Размеры</h2>
+                    <section class="product">
+                        <div class="product__slider-wrapper">
+                            <button
+                                class="product__slider-button product__slider-button--prev"
+                                aria-label="Предыдущий слайд"
+                                title="Предыдущий слайд"
+                            >
+                                <svg width="40" height="40">
+                                    <use
+                                        class="product__slider-button-icon"
+                                        href="./icons/main-sprite.svg#double-arrow"
+                                    ></use>
+                                </svg>
+                            </button>
+                            <div class="swiper product__slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="product__slide-inner">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/product-slides/nike-air-mag-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="product__slide-img"
+                                                    src="./images/product-slides/nike-air-mag-slide-1-img.png"
+                                                    width="357"
+                                                    height="375"
+                                                    alt="Кроссовки Nike Air Mag, вид спереди"
+                                                />
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product__slide-inner">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/product-slides/nike-air-mag-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="product__slide-img"
+                                                    src="./images/product-slides/nike-air-mag-slide-2-img.png"
+                                                    width="408"
+                                                    height="375"
+                                                    alt="Кроссовки Nike Air Mag, вид сзади"
+                                                />
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product__slide-inner">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/product-slides/nike-air-mag-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="product__slide-img"
+                                                    src="./images/product-slides/nike-air-mag-slide-3-img.png"
+                                                    width="442"
+                                                    height="375"
+                                                    alt="Кроссовки Nike Air Mag, вид сбоку"
+                                                />
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="product__slider-button product__slider-button--next"
+                                aria-label="Следующий слайд"
+                                title="Следующий слайд"
+                            >
+                                <svg width="40" height="40">
+                                    <use
+                                        class="product__slider-button-icon"
+                                        href="./icons/main-sprite.svg#double-arrow"
+                                    ></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <h3 class="product__title title-sm">
+                            Кроссовки
+                            <strong class="product__title-accent"
+                                >Nike Air Mag</strong
+                            >
+                            Back To Future
+                        </h3>
+                        <p class="product__description text-light">
+                            Nike Air Mag — это кусочек киноистории и
+                            технологического прогресса. Если вы ищете уникальную
+                            пару кроссовок, которая станет не только стильным
+                            аксессуаром, но и ценным дополнением вашей
+                            коллекции, Nike Air Mag — идеальный выбор.
+                        </p>
+                        <p class="product__price title-sm">36 490 ₽</p>
+                        <div class="product__sizes-wrapper">
+                            <section class="product__sizes">
+                                <h4
+                                    class="product__sizes-title product__sizes-title--in-stock"
+                                >
+                                    Размеры в наличии
+                                </h4>
+                                <div
+                                    class="product__sizes-list"
+                                    data-sizes="list"
+                                >
+                                    <button
+                                        class="product__sizes-button"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        38
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        40
+                                    </button>
+                                    <button
+                                        class="product__sizes-button product__sizes-button--active"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        41
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        42
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        44
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        aria-label="Выбрать размер"
+                                        title="Выбрать размер"
+                                        data-sizes="button"
+                                    >
+                                        45
+                                    </button>
+                                </div>
+                                <div class="product__buy-wrapper">
+                                    <button class="product__buy-button">
+                                        Купить в 1 клик
+                                    </button>
+                                    <button class="product__cart-button">
+                                        <img
+                                            src="./icons/cart-icon.svg"
+                                            alt="Корзина"
+                                        />
+                                    </button>
+                                </div>
+                            </section>
+                            <section class="product__sizes">
+                                <h4
+                                    class="product__sizes-title product__sizes-title--to-order"
+                                >
+                                    Размеры под заказ
+                                </h4>
+                                <div class="product__sizes-list">
+                                    <button
+                                        class="product__sizes-button"
+                                        disabled
+                                    >
+                                        36
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        disabled
+                                    >
+                                        37
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        disabled
+                                    >
+                                        43
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        disabled
+                                    >
+                                        46
+                                    </button>
+                                    <button
+                                        class="product__sizes-button"
+                                        disabled
+                                    >
+                                        47
+                                    </button>
+                                </div>
+                                <a class="product__sizes-order-link" href="#"
+                                    >Заказать размер</a
+                                >
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section class="characteristics section" id="characteristics">
+                <div class="container">
+                    <h2 class="characteristics__title title-md section-title">
+                        Характеристики
+                    </h2>
+                    <div class="characteristics__video">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/characteristics-video-preview-img.webp
+                                "
+                                type="image/webp"
+                            />
+                            <img
+                                class="characteristics__video-preview"
+                                src="./images/characteristics-video-preview-img.jpg"
+                                width="1240"
+                                height="600"
+                                loading="lazy"
+                                alt="Кроссовки Nike Air Mag лежат на жёлтой коробке"
+                            />
+                        </picture>
+                        <a
+                            class="characteristics__video-play-link"
+                            title="Запустить видео"
+                            href="https://www.youtube.com/watch?v=VRGdQaE6gMY"
+                            data-fslightbox
+                        >
+                            <img
+                                class="characteristics__video-play-icon"
+                                src="./icons/play-icon.svg"
+                                width="17"
+                                height="23"
+                                alt="Запустить видео"
+                            />
+                        </a>
+                    </div>
+                    <div class="characteristics__grid-list">
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#planet"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Футуристический дизайн
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Nike Air Mag выделяются своим уникальным и
+                                оригинальным дизайном, который сразу же
+                                привлекает внимание. Эта модель создана для тех,
+                                кто ценит стиль, вдохновленный наукой и
+                                фантастикой
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#laces"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Автоматическая шнуровка
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Инновационная система автоматической шнуровки
+                                обеспечивает идеальную фиксацию обуви на ноге
+                                без необходимости вручную завязывать шнурки, что
+                                значительно повышает комфорт
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#limited"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Ограниченный выпуск
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Nike Air Mag были выпущены в ограниченном
+                                количестве, что делает каждую пару желанным
+                                объектом для коллекционеров и любителей
+                                уникальных кроссовок
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#lamp"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Встроенная подсветка
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Благодаря светодиодной подсветке, кроссовки
+                                выглядят эффектно в темное время суток. Это
+                                придает им еще больше оригинальности и
+                                уникальности
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#sneaker"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Комфорт и поддержка
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Модель предлагает высокий уровень комфорта
+                                благодаря качественной амортизации и поддержке
+                                стопы, что делает их идеальными для длительного
+                                ношения
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#material"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Современные материалы
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Nike Air Mag изготовлены из высококачественных
+                                синтетических материалов, которые обеспечивают
+                                долговечность, устойчивость к износу и легкость
+                                в уходе
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#clutch"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Хорошая сцепляемость
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Подошва кроссовок обладает отличным сцеплением с
+                                различными поверхностями, что обеспечивает
+                                надежность при ходьбе и беге
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#diamond"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Культовый статус
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Nike Air Mag стали культовыми благодаря своему
+                                появлению в кино "Назад в будущее 2", что
+                                подчеркивает их историческую и культурную
+                                значимость
+                            </p>
+                        </article>
+                        <article class="characteristics__cart">
+                            <svg
+                                class="characteristics__cart-icon"
+                                width="56"
+                                height="56"
+                            >
+                                <use
+                                    href="./icons/characteristics-sprite-icon.svg#brightness"
+                                ></use>
+                            </svg>
+                            <h3 class="characteristics__cart-title title-xs">
+                                Яркое дополнение к любому образу
+                            </h3>
+                            <p class="characteristics__cart-description">
+                                Кроссовки легко вписываются в различные стили
+                                одежды, позволяя создавать уникальные образы.
+                                Они могут дополнить как спортивный, так и
+                                повседневный стиль
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="top-models section" id="top-models">
+                <div class="container">
+                    <h2 class="top-models__title title-md section-title">
+                        Другие
+                        <span class="top-models__title-accent">Топ</span> модели
+                        от Nike
+                    </h2>
+                    <div class="top-models__grid-products">
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Nike Air Yeezy 2 “Red October”
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-1-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-1-image.png"
+                                        width="190"
+                                        height="143"
+                                        loading="lazy"
+                                        alt="Кроссовки Nike Air Yeezy 2 “Red October”"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Wings x Air Jordan 1
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-2-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-2-image.png"
+                                        width="190"
+                                        height="120"
+                                        loading="lazy"
+                                        alt="Кроссовки Wings x Air Jordan 1"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Nike Dunk SB Low Yellow Lobster
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-3-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-3-image.png"
+                                        width="190"
+                                        height="88"
+                                        loading="lazy"
+                                        alt="Кроссовки Nike Dunk SB Low Yellow Lobster"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        DJ Khaled x Air Jordan 3 “Grateful”
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-4-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-4-image.png"
+                                        width="190"
+                                        height="136"
+                                        loading="lazy"
+                                        alt="Кроссовки DJ Khaled x Air Jordan 3 “Grateful”"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Nike SB Dunk Low Freddy Krueger
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-5-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-5-image.png"
+                                        width="190"
+                                        height="94"
+                                        loading="lazy"
+                                        alt="Кроссовки Nike SB Dunk Low Freddy Krueger"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Air Jordan 10 x OVO
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-6-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-6-image.png"
+                                        width="190"
+                                        height="97"
+                                        loading="lazy"
+                                        alt="Кроссовки Air Jordan 10 x OVO"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Air Jordan 12 Flu-Game
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-7-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-7-image.png"
+                                        width="190"
+                                        height="111"
+                                        loading="lazy"
+                                        alt="Кроссовки Air Jordan 12 Flu-Game"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Air Jordan 1 “Shattered Backboard” 1985
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-8-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-8-image.png"
+                                        width="190"
+                                        height="101"
+                                        loading="lazy"
+                                        alt="Кроссовки Air Jordan 1 “Shattered Backboard” 1985"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                        <article class="top-models__product">
+                            <a class="top-models__product-link" href="#">
+                                <div class="top-models__product-content">
+                                    <h3
+                                        class="top-models__product-title title-xs"
+                                    >
+                                        Kanye West Nike Air Yeezy 1 “Prototype”
+                                    </h3>
+                                    <svg width="24" height="24">
+                                        <use
+                                            class="top-models__product-icon"
+                                            href="./icons/main-sprite.svg#arrow-right"
+                                        ></use>
+                                    </svg>
+                                </div>
+                                <picture
+                                    class="top-models__product-image-wrapper"
+                                >
+                                    <source
+                                        srcset="
+                                            ./images/top-models/top-models-9-image.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        class="top-models__product-image"
+                                        src="./images/top-models/top-models-9-image.png"
+                                        width="190"
+                                        height="147"
+                                        loading="lazy"
+                                        alt="Кроссовки Kanye West Nike Air Yeezy 1 “Prototype”"
+                                    />
+                                </picture>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
