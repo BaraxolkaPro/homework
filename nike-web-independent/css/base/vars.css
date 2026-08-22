@@ -1,0 +1,38 @@
+:root {
+    /* font-family */
+    --font-family: "Montserrat", sans-serif;
+
+    /* colors */
+    --main-color: #fff;
+    --main-glow-color: #ffffff4d;
+    --accent-color: #ffea00;
+    --accent-glow-color: #ffea004d;
+    --bg-color: #2a2a29;
+    --secondary-color: #c9c69b;
+    --secondary-hover-color: #c9c69b4d;
+    --disabled-color: #5d5d56;
+    --disabled-glow-color: #5d5d564d;
+    --shadow-color: #181817;
+    --overlay: linear-gradient(rgba(30, 30, 30, .9), #000 1810%);
+
+    /* shadow */
+    --shadow-main-color: 0 0 6px 2px var(--main-glow-color);
+    --shadow-accent-color: 0 0 6px 2px var(--accent-glow-color);
+    --shadow-disabled-color: 0 0 6px 2px var(--disabled-glow-color);
+
+
+    /* size */
+    --container-width: 1240px;
+    --container-padding: 15px;
+
+    /* transition */
+    --transition-time: 0.2s;
+
+    /* layers */
+    --layer-negative: -1;
+    --layer-0: 0;
+    --layer-1: 1;
+    --layer-2: 2;
+    --layer-3: 3;
+
+}

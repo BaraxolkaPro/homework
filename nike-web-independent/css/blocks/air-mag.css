@@ -1,0 +1,125 @@
+@media (width > 768px) {
+    .air-mag {
+        padding-bottom: 70px;
+    }
+}
+
+@media (width <=768px) {
+    .air-mag {
+        padding-bottom: 80px;
+    }
+}
+
+@media (width > 768px) {
+    .air-mag__title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (width <=768px) {
+    .air-mag__title {
+        margin-bottom: 13px;
+    }
+}
+
+.air-mag__description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 13px;
+}
+
+.air-mag__description::before {
+    content: "";
+    display: block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 131px;
+    height: 39px;
+    background-image: url("../../icons/rectengal-decor-icon.svg");
+    -webkit-transform: translateX(-13px);
+    -ms-transform: translateX(-13px);
+    transform: translateX(-13px);
+}
+
+@media (width > 768px) {
+    .air-mag__description {
+        margin-bottom: 20px;
+    }
+}
+
+@media (width <=768px) {
+    .air-mag__description {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+}
+
+.air-mag__info-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (width > 992px) {
+    .air-mag__info-wrapper {
+        gap: 40px;
+    }
+}
+
+@media (width <=992px) {
+    .air-mag__info-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.air-mag__image {
+    width: 100%;
+}
+
+.air-mag__info-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (width > 992px) {
+    .air-mag__info-list {
+        gap: 40px;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        max-width: 293px;
+        -webkit-transform: translateY(71px);
+        -ms-transform: translateY(71px);
+        transform: translateY(71px);
+    }
+}
+
+@media (width <=992px) {
+    .air-mag__info-list {
+        max-width: 700px;
+        gap: 20px;
+    }
+}
+
+.air-mag__info-item::before {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 33px;
+    margin-bottom: 5px;
+    background-image: url("../../icons/double-arrow.svg");
+    -webkit-transform: translateX(-7px);
+    -ms-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
