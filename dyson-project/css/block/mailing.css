@@ -1,0 +1,420 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.mailing {
+    background-color: var(--bg-second-color);
+}
+
+.mailing__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (width > 1440px) {
+    .mailing__container {
+        gap: 135px;
+    }
+}
+
+@media (width <=1440px) and (width > 992px) {
+    .mailing__container {
+        gap: 80px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__container {
+        gap: 40px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__container {
+        gap: 20px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 46px;
+    }
+}
+
+.mailing__form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+}
+
+.mailing__title {
+    white-space: nowrap;
+}
+
+@media (width > 992px) {
+    .mailing__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__title {
+        margin-bottom: 35px;
+    }
+}
+
+@media (width <=768px) {
+    .mailing__title {
+        margin-bottom: 20px;
+    }
+}
+
+.mailing__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (width > 768px) {
+    .mailing__label {
+        margin-bottom: 30px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__label {
+        margin-bottom: 20px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__label {
+        margin-bottom: 14px;
+    }
+}
+
+.mailing__input {
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    background-color: var(--bg-second-color);
+    width: 100%;
+}
+
+@media (width > 992px) {
+    .mailing__input {
+        padding: 0 0 15px 1px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__input {
+        padding: 0 0 11px 1px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__input {
+        padding: 0 0 7px 1px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__input {
+        padding: 0 0 6px 1px;
+    }
+}
+
+.mailing__input::-webkit-input-placeholder {
+    color: var(--disabled-color);
+}
+
+.mailing__input::-moz-placeholder {
+    color: var(--disabled-color);
+}
+
+.mailing__input:-ms-input-placeholder {
+    color: var(--disabled-color);
+}
+
+.mailing__input::-ms-input-placeholder {
+    color: var(--disabled-color);
+}
+
+.mailing__input::placeholder {
+    color: var(--disabled-color);
+}
+
+@media (width > 992px) {
+    .mailing__input::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+    .mailing__input::-moz-placeholder {
+        font-size: 18px;
+    }
+    .mailing__input:-ms-input-placeholder {
+        font-size: 18px;
+    }
+    .mailing__input::-ms-input-placeholder {
+        font-size: 18px;
+    }
+    .mailing__input::placeholder {
+        font-size: 18px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__input::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+    .mailing__input::-moz-placeholder {
+        font-size: 15px;
+    }
+    .mailing__input:-ms-input-placeholder {
+        font-size: 15px;
+    }
+    .mailing__input::-ms-input-placeholder {
+        font-size: 15px;
+    }
+    .mailing__input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media (width <=768px) {
+    .mailing__input::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    .mailing__input::-moz-placeholder {
+        font-size: 12px;
+    }
+    .mailing__input:-ms-input-placeholder {
+        font-size: 12px;
+    }
+    .mailing__input::-ms-input-placeholder {
+        font-size: 12px;
+    }
+    .mailing__input::placeholder {
+        font-size: 12px;
+    }
+}
+
+.mailing__send {
+    display: inline-block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    color: var(--bg-main-color);
+    -webkit-transition: background-color var(--transition-time);
+    transition: background-color var(--transition-time);
+}
+
+@media (width > 992px) {
+    .mailing__send {
+        margin-top: 40px;
+        padding: 15px 42px;
+        font-size: 24px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__send {
+        margin-top: 10px;
+        padding: 11px 34px;
+        font-size: 20px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__send {
+        margin-top: 20px;
+        padding: 7px 26px;
+        font-size: 16px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__send {
+        margin-top: 22px;
+        padding: 8px 25px;
+        font-size: 15px;
+        min-width: 170px;
+    }
+}
+
+@media (any-hover: hover) {
+    .mailing__send:hover {
+        background-color: var(--accent-color);
+    }
+}
+
+.mailing__send:disabled {
+    cursor: not-allowed;
+    background-color: var(--disabled-color);
+}
+
+@media (width > 768px) {
+    .mailing__send:not(:last-child) {
+        margin-bottom: 35px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__send:not(:last-child) {
+        margin-bottom: 21px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__send:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.mailing__checkbox-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 120%;
+    color: var(--secondary-color);
+    padding-left: 1px;
+}
+
+@media (width > 992px) {
+    .mailing__checkbox-label {
+        font-size: 16px;
+        gap: 16px;
+        max-width: 560px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__checkbox-label {
+        font-size: 13px;
+        gap: 13px;
+        max-width: 371px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .mailing__checkbox-label {
+        font-size: 10px;
+        gap: 10px;
+        max-width: 371px;
+    }
+}
+
+@media (width <=576px) {
+    .mailing__checkbox-label {
+        font-weight: 300;
+        font-size: 10px;
+        gap: 10px;
+        max-width: 371px;
+    }
+}
+
+.mailing__checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: 1px solid var(--main-color);
+    border-radius: 3px;
+    -webkit-transition: border-color var(--transition-time);
+    transition: border-color var(--transition-time);
+}
+
+@media (width > 992px) {
+    .mailing__checkbox {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__checkbox {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (width <=768px) {
+    .mailing__checkbox {
+        width: 19px;
+        height: 19px;
+    }
+}
+
+@media (any-hover: hover) {
+    .mailing__checkbox:hover {
+        border-color: var(--accent-color);
+    }
+}
+
+.mailing__checkbox::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url("../../icons/mailing-check.svg") no-repeat center/cover;
+    width: 0;
+    height: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition:
+        width var(--transition-time),
+        height var(--transition-time);
+    transition:
+        width var(--transition-time),
+        height var(--transition-time);
+}
+
+@media (width > 992px) {
+    .mailing__checkbox:checked:after {
+        width: 18px;
+        height: 12px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .mailing__checkbox:checked:after {
+        width: 14px;
+        height: 9px;
+    }
+}
+
+@media (width <=768px) {
+    .mailing__checkbox:checked:after {
+        width: 11px;
+        height: 7px;
+    }
+}

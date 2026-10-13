@@ -1,0 +1,76 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.opinion {
+    background-color: var(--bg-second-color);
+    overflow: hidden;
+}
+
+.opinion__container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.opinion__info-wrapper {
+    z-index: var(--layer-1);
+}
+
+@media (width > 768px) {
+    .opinion__title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (width <=768px) {
+    .opinion__title {
+        margin-bottom: 20px;
+        white-space: nowrap;
+    }
+}
+
+.opinion__text {
+    line-height: 140%;
+}
+
+@media (width > 1300px) {
+    .opinion__text {
+        max-width: 690px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (width <=1300px) and (width > 992px) {
+    .opinion__text {
+        max-width: 540px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (width <=992px) {
+    .opinion__text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.opinion__image {
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    width: 50%;
+}
+
+@media (width <=992px) {
+    .opinion__image {
+        display: none;
+    }
+}

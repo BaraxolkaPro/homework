@@ -1,0 +1,152 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.modal-review {
+    width: 70%;
+}
+
+@media (width > 768px) {
+    .modal-review__content {
+        margin-inline: auto;
+        width: 50%;
+    }
+}
+
+@media (width <= 768px) {
+    .modal-review__content {
+        margin-inline: auto;
+        width: 100%;
+    }
+}
+
+@media (width > 768px) {
+    .modal-review__title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (width <= 768px) {
+    .modal-review__title {
+        margin-bottom: 20px;
+    }
+}
+
+.modal-review__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.modal-review__label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.modal-review__input {
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (width > 992px) {
+    .modal-review__input {
+        padding: 0 0 15px 1px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .modal-review__input {
+        padding: 0 0 11px 1px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .modal-review__input {
+        padding: 0 0 7px 1px;
+    }
+}
+
+@media (width <=576px) {
+    .modal-review__input {
+        padding: 0 0 6px 1px;
+    }
+}
+
+.modal-review__textarea {
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+@media (width > 992px) {
+    .modal-review__textarea {
+        padding: 0 0 15px 1px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .modal-review__textarea {
+        padding: 0 0 11px 1px;
+    }
+}
+
+@media (width <=768px) and (width > 576px) {
+    .modal-review__textarea {
+        padding: 0 0 7px 1px;
+    }
+}
+
+@media (width <=576px) {
+    .modal-review__textarea {
+        padding: 0 0 6px 1px;
+    }
+}
+
+.modal-review__wrapper {
+    margin-bottom: 10px;
+}
+
+.modal-review__grade {
+    text-align: start;
+}
+
+.modal-review__grade-accent {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.modal-review__star-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.modal-review__submit {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: var(--bg-main-color);
+    -webkit-transition: background-color var(--transition-time);
+    transition: background-color var(--transition-time);
+}
+
+@media (any-hover: hover) {
+    .modal-review__submit:hover {
+        background-color: var(--accent-color);
+    }
+}

@@ -1,0 +1,165 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.filter {
+    position: relative;
+    margin-left: auto;
+}
+
+@media (width > 768px) {
+    .filter {
+        max-width: 273px;
+    }
+}
+
+@media (width <=768px) {
+    .filter {
+        max-width: 191px;
+    }
+}
+
+.filter__toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid var(--accent-color);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    -webkit-transition: background-color var(--transition-time);
+    transition: background-color var(--transition-time);
+}
+
+@media (width > 768px) {
+    .filter__toggle {
+        padding: 7px 25px 8px;
+        font-size: 18px;
+        min-width: 273px;
+    }
+}
+
+@media (width <=768px) {
+    .filter__toggle {
+        padding: 6px 15px 7px;
+        font-size: 12px;
+        min-width: 191px;
+    }
+}
+
+@media (any-hover: hover) {
+    .filter__toggle:hover {
+        background-color: var(--hover-accent-color);
+    }
+}
+
+.filter--open .filter__toggle {
+    color: var(--accent-color);
+}
+
+.filter__toggle-icon {
+    -webkit-transition: -webkit-transform var(--transition-time);
+    transition: -webkit-transform var(--transition-time);
+    transition: transform var(--transition-time);
+    transition:
+        transform var(--transition-time),
+        -webkit-transform var(--transition-time);
+    fill: currentColor;
+}
+
+.filter--open .filter__toggle-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.filter__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: var(--layer-2);
+    background: var(--bg-filter-color);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition:
+        opacity var(--transition-time),
+        visibility var(--transition-time);
+    transition:
+        opacity var(--transition-time),
+        visibility var(--transition-time);
+}
+
+.filter--open .filter__list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.filter__item {
+    cursor: pointer;
+    -webkit-transition: background-color var(--transition-time);
+    transition: background-color var(--transition-time);
+}
+
+@media (width > 768px) {
+    .filter__item {
+        padding: 7px 25px 8px;
+        font-size: 18px;
+    }
+}
+
+@media (width <=768px) {
+    .filter__item {
+        padding: 6px 15px 7px;
+        font-size: 12px;
+    }
+}
+
+.filter__item:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.filter__item:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
+.filter__item:not(.filter__item:first-child) {
+    border-top: 1px solid var(--border-filter-color);
+}
+
+@media (any-hover: hover) {
+    .filter__item:hover {
+        background-color: var(--hover-bg-main-color);
+    }
+}
+
+.filter__active-icon {
+    display: none;
+}
+
+.filter--open .filter__active-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: var(--layer-3);
+}
+
+@media (width > 768px) {
+    .filter--open .filter__active-icon {
+        right: 22px;
+    }
+}
+
+@media (width <=768px) {
+    .filter--open .filter__active-icon {
+        right: 10px;
+    }
+}
