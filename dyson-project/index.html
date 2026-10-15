@@ -1,0 +1,3325 @@
+<!doctype html>
+<html class="page" lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="./icons/Dyson_favicon-180x180.ico"
+            type="image/x-icon"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+            defer
+        ></script>
+        <script src="./js/fslightbox.js" type="module"></script>
+        <script src="./js/index.js" type="module"></script>
+        <title>Dyson - Главная</title>
+    </head>
+
+    <body class="page__body">
+        <header class="header">
+            <div class="container header__container">
+                <button
+                    class="header__burger burger"
+                    aria-label="Открыть меню"
+                    title="Открыть меню"
+                    aria-expanded="false"
+                    aria-controls="header__menu"
+                >
+                    <svg class="burger__icon-wrapper" width="40" height="40">
+                        <use
+                            class="burger__icon-menu"
+                            href="./icons/main-sprite.svg#burger"
+                        ></use>
+                        <use
+                            class="burger__icon-cross"
+                            href="./icons/main-sprite.svg#cross"
+                        ></use>
+                    </svg>
+                </button>
+                <a class="header__logo" href="/">
+                    <img
+                        class="header__logo-img"
+                        src="./images/dyson-logo-img.png"
+                        width="183"
+                        height="77"
+                        alt="Логотип Dyson"
+                    />
+                </a>
+                <nav
+                    class="header__menu"
+                    id="header__menu"
+                    aria-label="Главное меню"
+                >
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">О нас</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link"
+                                >Доставка и оплата</a
+                            >
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link"
+                                >Регистрация продукта</a
+                            >
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Сервис</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link"
+                                >Сертификаты и лицензии</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <button
+                    class="header__cart"
+                    aria-label="Корзина"
+                    title="Корзина"
+                    data-modal-button="cart"
+                    data-modal-speed="200"
+                >
+                    <svg class="header__cart-wrapper" width="36" height="36">
+                        <use
+                            class="header__cart-icon"
+                            href="./icons/main-sprite.svg#cart"
+                        ></use>
+                    </svg>
+                    <span class="header__cart-count">1</span>
+                </button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container hero__container">
+                    <div class="hero__info-wrapper">
+                        <h1 class="hero__title title-bg">
+                            Уникальные технологии для ухода за волосами
+                        </h1>
+                        <p class="hero__description">
+                            Идеальная укладка для всех типов волос вместе с
+                            Dyson
+                        </p>
+                        <a href="#" class="hero__button">Подробнее</a>
+                    </div>
+                    <picture>
+                        <source
+                            srcset="./images/dyson-girl-hair-img.webp"
+                            type="image/webp"
+                        />
+                        <img
+                            class="hero__image"
+                            src="./images/dyson-girl-hair-img.png"
+                            width="745"
+                            height="803"
+                            alt="Девушка сушит волосы феном Dyson"
+                        />
+                    </picture>
+                </div>
+            </section>
+            <section class="articles section">
+                <div class="container articles__container">
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-1-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-1-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Акции</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-2-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-2-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Фены</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-3-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-3-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Стайлеры</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-4-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-4-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Выпрямители</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-1-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-1-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Акции</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-2-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-2-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Фены</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-3-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-3-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Стайлеры</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                    <article class="articles__article">
+                        <a href="#" class="articles__link">
+                            <header class="articles__header">
+                                <picture>
+                                    <source
+                                        srcset="./images/articles-4-img.webp"
+                                        type="image/webp"
+                                    />
+                                    <img
+                                        src="./images/articles-4-img.jpg"
+                                        width="325"
+                                        height="325"
+                                        alt="Девушка сушит волосы феном Dyson с насадкой круглая щетка"
+                                    />
+                                </picture>
+                            </header>
+                            <footer class="articles__footer">
+                                <h2 class="articles__title">Выпрямители</h2>
+                                <p class="articles__details">
+                                    Подробнее
+                                    <svg
+                                        class="articles__details-wrapper"
+                                        width="28"
+                                        height="25"
+                                    >
+                                        <use
+                                            class="articles__details-icon"
+                                            href="./icons/main-sprite.svg#right-arrow"
+                                        ></use>
+                                    </svg>
+                                </p>
+                            </footer>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="opinion section">
+                <div class="container opinion__container">
+                    <div class="opinion__info-wrapper">
+                        <h2 class="opinion__title title-md">
+                            Мнение экспертов о технике Dyson
+                        </h2>
+                        <p class="opinion__text text-regular">
+                            Сегодня многие стилисты и салоны красоты в своей
+                            работе используют технику от Dyson.
+                        </p>
+                        <p class="opinion__text text-regular">
+                            Несмотря на высокую стоимость, техника Dyson
+                            помогает экономить. Мастера тратят меньше времени на
+                            сушку и укладку волос, благодаря чему успевают
+                            обслужить большее количество клиентов. Также
+                            устройства от Dyson потребляют значительно меньше
+                            электроэнергии, не теряя свою мощность.
+                        </p>
+                        <p class="opinion__text text-regular">
+                            Фены Dyson универсальны. Они подходят для сушки
+                            разных типов волос. Насадки из комплекта помогают
+                            создавать укладки на любой вкус. Функциональность
+                            девайсов впечатляет не меньше, чем их уникальный
+                            дизайн.
+                        </p>
+                        <p class="opinion__text text-regular">
+                            Ведущие стилисты отмечают, что техника Dyson для
+                            ухода за волосами идеально подходят для длительной
+                            работы за счет своей эргономичности. А за счет
+                            бесшумности инновационного мотора использование
+                            устройств стало максимально комфортным.
+                        </p>
+                    </div>
+                    <picture>
+                        <source srcset="./images/opinion-girl-img.png" />
+                        <img
+                            src="./images/opinion-girl-img.png"
+                            class="opinion__image"
+                            width="1280"
+                            height="1280"
+                            alt="Девушка сушит прядь волос феном Dyson"
+                        />
+                    </picture>
+                </div>
+            </section>
+            <section class="choice section">
+                <div class="container">
+                    <h2 class="choice__title title-md">Почему выбирают нас</h2>
+                    <div class="choice__cards-wrapper">
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use
+                                    href="./icons/choice-sprite.svg#card"
+                                ></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Широкий ассортимент
+                                </h3>
+                                <p class="choice__card-description">
+                                    Большой выбор техники<br />
+                                    и аксессуаров
+                                </p>
+                            </div>
+                        </article>
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use
+                                    href="./icons/choice-sprite.svg#truck"
+                                ></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Быстрая доставка
+                                </h3>
+                                <p class="choice__card-description">
+                                    По Москве — 2-3 часа;<br />
+                                    По России — 2-4 дня
+                                </p>
+                            </div>
+                        </article>
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use
+                                    href="./icons/choice-sprite.svg#discount"
+                                ></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Специальное предложение
+                                </h3>
+                                <p class="choice__card-description">
+                                    Только для клиентов<br />
+                                    нашего сайта
+                                </p>
+                            </div>
+                        </article>
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use
+                                    href="./icons/choice-sprite.svg#warranty"
+                                ></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Гарантия производителя
+                                </h3>
+                                <p class="choice__card-description">
+                                    Гарантия 2 года<br />
+                                    на устройства и аксессуары
+                                </p>
+                            </div>
+                        </article>
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use href="./icons/choice-sprite.svg#map"></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Безопасная оплата
+                                </h3>
+                                <p class="choice__card-description">
+                                    Оплата после получения товара
+                                </p>
+                            </div>
+                        </article>
+                        <article class="choice__card">
+                            <svg
+                                class="choice__card-image"
+                                width="74"
+                                height="80"
+                            >
+                                <use
+                                    href="./icons/choice-sprite.svg#phone"
+                                ></use>
+                            </svg>
+                            <div class="choice__card-wrapper">
+                                <h3 class="choice__card-title">
+                                    Бесплатная консультация
+                                </h3>
+                                <p class="choice__card-description">
+                                    В любом удобном для вас<br />
+                                    формате, 7 дней в неделю
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="offers section">
+                <div class="container">
+                    <h2 class="offers__title title-bg">
+                        Спецпредложения
+                        <span class="offers__title-accent">14</span>
+                    </h2>
+                    <div class="offers__tags-wrapper">
+                        <button class="offers__tag-item text-regular">
+                            dyson стайлер для длинных волос
+                        </button>
+                        <button class="offers__tag-item text-regular">
+                            dyson hs01 airwrap compliete
+                        </button>
+                        <button class="offers__tag-item text-regular">
+                            фен щетка дайсон
+                        </button>
+                        <button class="offers__tag-item text-regular">
+                            dyson стайлер красный
+                        </button>
+                        <button class="offers__tags-more text-regular">
+                            Показать еще
+                        </button>
+                    </div>
+                    <div class="offers__filter filter">
+                        <button class="filter__toggle">
+                            <span class="filter__value"
+                                >Сначала популярные</span
+                            >
+                            <svg
+                                class="filter__toggle-icon"
+                                width="8"
+                                height="6"
+                            >
+                                <use
+                                    href="./icons/offers-sprite.svg#filter-arrow"
+                                ></use>
+                            </svg>
+                        </button>
+                        <ul class="filter__list">
+                            <li class="filter__item" data-value="popular">
+                                Сначала популярные
+                            </li>
+                            <li class="filter__item" data-value="cheap">
+                                Сначала дешёвые
+                            </li>
+                            <li class="filter__item" data-value="expensive">
+                                Сначала дорогие
+                            </li>
+                            <li class="filter__item" data-value="new">
+                                Новинки
+                            </li>
+                            <li class="filter__item" data-value="rating">
+                                Высокий рейтинг
+                            </li>
+                        </ul>
+                        <img
+                            class="filter__active-icon"
+                            width="17"
+                            height="11"
+                            src="./icons/filter-check.svg"
+                            alt="Галочка"
+                        />
+                    </div>
+                    <div class="offers__products-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="offers__products-wrapper">
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="offers__products-wrapper">
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="offers__products-wrapper">
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-1-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-1-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07
+                                                    синий медный с 5 насадками в
+                                                    чехле и расческамия
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        59 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        69 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-2-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-2-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic HD07 с
+                                                    5 насадками и подставкой
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        47 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                    <article class="offers__product">
+                                        <header class="offers__product-header">
+                                            <picture>
+                                                <source
+                                                    srcset="
+                                                        ./images/offers-slide-3-img.webp
+                                                    "
+                                                />
+                                                <img
+                                                    class="offers__product-image"
+                                                    src="./images/offers-slide-3-img.jpg"
+                                                    width="440"
+                                                    height="440"
+                                                    alt="Фен Dyson Supersonic HD07"
+                                                />
+                                            </picture>
+                                            <div class="offers__product-info">
+                                                <h3
+                                                    class="offers__product-title"
+                                                >
+                                                    Фен Dyson Supersonic 4
+                                                    насадки HD03 с чехлом для
+                                                    хранения цвет сирень
+                                                </h3>
+                                                <div
+                                                    class="offers__product-promo"
+                                                >
+                                                    <p
+                                                        class="offers__product-available"
+                                                    >
+                                                        В наличии
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-discount"
+                                                    >
+                                                        -15%
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="offers__product-prise"
+                                                >
+                                                    <p
+                                                        class="offers__product-new-prise"
+                                                    >
+                                                        46 990Р
+                                                    </p>
+                                                    <p
+                                                        class="offers__product-old-prise"
+                                                    >
+                                                        51 990 Р
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <footer class="offers__product-footer">
+                                            <div
+                                                class="offers__product-quantity"
+                                            >
+                                                <button
+                                                    class="offers__product-minus"
+                                                    aria-label="Убрать"
+                                                    title="Убрать"
+                                                >
+                                                    <svg width="20" height="2">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#minus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                                <p
+                                                    class="offers__product-count"
+                                                >
+                                                    1
+                                                </p>
+                                                <button
+                                                    class="offers__product-plus"
+                                                    aria-label="Добавить"
+                                                    title="Добавить"
+                                                >
+                                                    <svg width="20" height="20">
+                                                        <use
+                                                            href="./icons/offers-sprite.svg#plus"
+                                                        ></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button
+                                                class="offers__product-cart"
+                                            >
+                                                В корзину
+                                            </button>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__arrow-wrapper">
+                            <button class="offers__slider-button--prev">
+                                <svg
+                                    class="offers__product-svg"
+                                    width="35"
+                                    height="30"
+                                >
+                                    <use
+                                        class="offers__product-icon"
+                                        href="./icons/offers-sprite.svg#slider-arrow"
+                                    ></use>
+                                </svg>
+                            </button>
+                            <button class="offers__slider-button--next">
+                                <svg
+                                    class="offers__product-svg offers__product-next"
+                                    width="35"
+                                    height="30"
+                                >
+                                    <use
+                                        class="offers__product-icon"
+                                        href="./icons/offers-sprite.svg#slider-arrow"
+                                    ></use>
+                                </svg>
+                            </button>
+                            <p class="offers__products-count">1 из 3</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews section">
+                <div class="container">
+                    <h2 class="reviews__title title-md">
+                        Отзывы <span class="reviews__title-accent">151</span>
+                    </h2>
+                    <div class="reviews__form">
+                        <div class="reviews__form-wrapper">
+                            <p class="reviews__estimation">
+                                <span class="reviews__estimation-accent"
+                                    >5 </span
+                                >/ 5
+                            </p>
+                            <ul class="reviews__star-list">
+                                <li class="reviews__star-item">
+                                    <img
+                                        class="reviews__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="reviews__star-item">
+                                    <img
+                                        class="reviews__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="reviews__star-item">
+                                    <img
+                                        class="reviews__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="reviews__star-item">
+                                    <img
+                                        class="reviews__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="reviews__star-item">
+                                    <img
+                                        class="reviews__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                        <button
+                            class="reviews__button"
+                            data-modal-button="review"
+                            data-modal-speed="200"
+                        >
+                            Написать отзыв
+                        </button>
+                    </div>
+                    <ul class="reviews__list">
+                        <li class="reviews__item">
+                            <div class="reviews__entry">
+                                <div class="reviews__estimation-wrapper">
+                                    <p class="reviews__estimation-name">
+                                        Ольга
+                                    </p>
+                                    <ul class="reviews__star-list">
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="reviews__review-wrapper">
+                                    <h3 class="reviews__review-title">
+                                        Это лучший фен!
+                                    </h3>
+                                    <p class="reviews__review-description">
+                                        Пользуюсь около месяца, хочу поделиться
+                                        впечатлениями. Во-первых, фен очень
+                                        легкий, удобно лежит в руке, не
+                                        скользит. Кнопка включения и выключения
+                                        расположена удобно, а не где-то сбоку.
+                                        Мощность у фена хорошая, волосы сушит
+                                        быстро
+                                    </p>
+                                    <ul class="reviews__review-list">
+                                        <li class="reviews__review-item">
+                                            <a
+                                                class="reviews__review-link"
+                                                data-fslightbox
+                                                href="./images/reviews-image.jpg"
+                                            >
+                                                <picture>
+                                                    <source
+                                                        srcset="
+                                                            ./images/reviews-image.webp
+                                                        "
+                                                    />
+                                                    <img
+                                                        class="reviews__review-image"
+                                                        src="./images/reviews-image.jpg"
+                                                        width="95"
+                                                        height="95"
+                                                        alt="Фен Dyson держат в руке"
+                                                    />
+                                                </picture>
+                                            </a>
+                                        </li>
+                                        <li class="reviews__review-item">
+                                            <a
+                                                class="reviews__review-link"
+                                                data-fslightbox
+                                                href="./images/reviews-image.jpg"
+                                            >
+                                                <picture>
+                                                    <source
+                                                        srcset="
+                                                            ./images/reviews-image.webp
+                                                        "
+                                                    />
+                                                    <img
+                                                        class="reviews__review-image"
+                                                        src="./images/reviews-image.jpg"
+                                                        width="95"
+                                                        height="95"
+                                                        alt="Фен Dyson держат в руке"
+                                                    />
+                                                </picture>
+                                            </a>
+                                        </li>
+                                        <li class="reviews__review-item">
+                                            <a
+                                                class="reviews__review-link"
+                                                data-fslightbox
+                                                href="./images/reviews-image.jpg"
+                                            >
+                                                <picture>
+                                                    <source
+                                                        srcset="
+                                                            ./images/reviews-image.webp
+                                                        "
+                                                    />
+                                                    <img
+                                                        class="reviews__review-image"
+                                                        src="./images/reviews-image.jpg"
+                                                        width="95"
+                                                        height="95"
+                                                        alt="Фен Dyson держат в руке"
+                                                    />
+                                                </picture>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="reviews__review-button">
+                                        Смотреть все фото
+                                    </button>
+                                </div>
+                            </div>
+                            <data
+                                class="reviews__review-time"
+                                value="2022-05-21"
+                                >21/05/2022</data
+                            >
+                        </li>
+                        <li class="reviews__item">
+                            <div class="reviews__entry">
+                                <div class="reviews__estimation-wrapper">
+                                    <p class="reviews__estimation-name">
+                                        Татьяна
+                                    </p>
+                                    <ul class="reviews__star-list">
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="reviews__review-wrapper">
+                                    <h3 class="reviews__review-title">
+                                        Отличный фен
+                                    </h3>
+                                    <p class="reviews__review-description">
+                                        Фен очень понравился. Качественный,
+                                        стильный: свою цену полностью
+                                        оправдывает!
+                                    </p>
+                                </div>
+                            </div>
+                            <data
+                                class="reviews__review-time"
+                                value="2022-05-21"
+                                >21/05/2022</data
+                            >
+                        </li>
+                        <li class="reviews__item">
+                            <div class="reviews__entry">
+                                <div class="reviews__estimation-wrapper">
+                                    <p class="reviews__estimation-name">
+                                        Виктор
+                                    </p>
+                                    <ul class="reviews__star-list">
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                        <li class="reviews__star-item">
+                                            <img
+                                                class="reviews__star"
+                                                src="./icons/reviews-star.svg"
+                                                width="25"
+                                                height="24"
+                                                alt="звездочка"
+                                            />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="reviews__review-wrapper">
+                                    <h3 class="reviews__review-title">
+                                        Быстро пришел
+                                    </h3>
+                                    <p class="reviews__review-description">
+                                        Фен очень понравился. Качественный,
+                                        стильный: свою цену полностью
+                                        оправдывает!
+                                    </p>
+                                    <ul class="reviews__review-list">
+                                        <li class="reviews__review-item">
+                                            <a
+                                                class="reviews__review-link"
+                                                data-fslightbox
+                                                href="./images/reviews-image.jpg"
+                                            >
+                                                <picture>
+                                                    <source
+                                                        srcset="
+                                                            ./images/reviews-image.webp
+                                                        "
+                                                    />
+                                                    <img
+                                                        class="reviews__review-image"
+                                                        src="./images/reviews-image.jpg"
+                                                        width="95"
+                                                        height="95"
+                                                        alt="Фен Dyson держат в руке"
+                                                    />
+                                                </picture>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="reviews__review-button">
+                                        Смотреть все фото
+                                    </button>
+                                </div>
+                            </div>
+                            <data
+                                class="reviews__review-time"
+                                value="2022-05-21"
+                                >21/05/2022</data
+                            >
+                        </li>
+                    </ul>
+                    <button class="reviews__more">
+                        Показать еще
+                        <svg
+                            class="reviews__more-wrapper"
+                            width="35"
+                            height="30"
+                        >
+                            <use
+                                class="reviews__more-icon"
+                                href="./icons/offers-sprite.svg#slider-arrow"
+                            ></use>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <section class="faq section">
+                <div class="container">
+                    <h2 class="faq__title title-md">
+                        Часто задаваемые вопросы
+                    </h2>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            В рукоятку встроен датчик температуры, благодаря
+                            которому она не поднимается выше 100 градусов?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            В рукоятку встроен датчик температуры, благодаря
+                            которому она не поднимается выше 100 градусов?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                    <details class="faq__question-wrapper" name="faq">
+                        <summary class="faq__question">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос?
+                        </summary>
+                        <p class="faq__answer">
+                            Главное отличие фена Dyson в быстром и безопасном
+                            высушивании волос. В рукоятку встроен датчик
+                            температуры, благодаря которому она не поднимается
+                            выше 100 градусов. В комплекте 5 насадок, которые
+                            подходят для укладки и сушки на разных режимах. Есть
+                            практичный черный чехол, предназначенный для
+                            аккуратной перевозки и хранения. Расчески можно
+                            использовать отдельно от девайса или во время сушки
+                            с целью предотвратить запутывание.
+                        </p>
+                    </details>
+                </div>
+            </section>
+            <section class="news section">
+                <div class="container">
+                    <h2 class="news__title title-md">Новости</h2>
+                    <div class="news__article-wrapper">
+                        <article class="news__article">
+                            <picture>
+                                <source srcset="./images/news-fan-img.webp" />
+                                <img
+                                    class="news__image"
+                                    src="./images/news-fan-img.jpg"
+                                    width="440"
+                                    height="294"
+                                    alt="Фен Dyson лежит с несколькими насадками"
+                                />
+                            </picture>
+                            <time class="news__date" datetime="2022-12-21"
+                                >21 декабря 2022</time
+                            >
+                            <h3 class="news__article-title">
+                                Есть ли безопасные выпрямители для волос
+                            </h3>
+                            <p class="news__description">
+                                Добавьте объем и рельеф коротким волосам.
+                                Посмотрите, как создать мягкие, легкие локоны и
+                                волны на коротких волосах и волосах средней
+                                длины.
+                            </p>
+                            <a class="news__link" href="#">Читать далее</a>
+                        </article>
+                        <article class="news__article">
+                            <picture>
+                                <source srcset="./images/news-fan-img.webp" />
+                                <img
+                                    class="news__image"
+                                    src="./images/news-fan-img.jpg"
+                                    width="440"
+                                    height="294"
+                                    alt="Фен Dyson лежит с несколькими насадками"
+                                />
+                            </picture>
+                            <time class="news__date" datetime="2022-12-21"
+                                >21 декабря 2022</time
+                            >
+                            <h3 class="news__article-title">
+                                Есть ли безопасные выпрямители для волос
+                            </h3>
+                            <p class="news__description">
+                                Добавьте объем и рельеф коротким волосам.
+                                Посмотрите, как создать мягкие, легкие локоны и
+                                волны на коротких волосах и волосах средней
+                                длины.
+                            </p>
+                            <a class="news__link" href="#">Читать далее</a>
+                        </article>
+                        <article class="news__article">
+                            <picture>
+                                <source srcset="./images/news-fan-img.webp" />
+                                <img
+                                    class="news__image"
+                                    src="./images/news-fan-img.jpg"
+                                    width="440"
+                                    height="294"
+                                    alt="Фен Dyson лежит с несколькими насадками"
+                                />
+                            </picture>
+                            <time class="news__date" datetime="2022-12-21"
+                                >21 декабря 2022</time
+                            >
+                            <h3 class="news__article-title">
+                                Есть ли безопасные выпрямители для волос
+                            </h3>
+                            <p class="news__description">
+                                Добавьте объем и рельеф коротким волосам.
+                                Посмотрите, как создать мягкие, легкие локоны и
+                                волны на коротких волосах и волосах средней
+                                длины.
+                            </p>
+                            <a class="news__link" href="#">Читать далее</a>
+                        </article>
+                    </div>
+                    <button class="news__more">
+                        Показать еще
+                        <svg
+                            class="reviews__more-wrapper"
+                            width="35"
+                            height="30"
+                        >
+                            <use
+                                class="reviews__more-icon"
+                                href="./icons/offers-sprite.svg#slider-arrow"
+                            ></use>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <section class="mailing section">
+                <div class="container mailing__container">
+                    <div class="mailing__form-wrapper">
+                        <h2 class="mailing__title title-md">
+                            Свяжитесь с нами
+                        </h2>
+                        <form class="mailing__form">
+                            <label class="mailing__label">
+                                <input
+                                    class="mailing__input"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Ваше имя"
+                                />
+                            </label>
+                            <label class="mailing__label">
+                                <input
+                                    class="mailing__input"
+                                    type="tel"
+                                    name="phone"
+                                    placeholder="Ваш номер телефона"
+                                />
+                            </label>
+                            <button class="mailing__send">
+                                Оставить заявку
+                            </button>
+                        </form>
+                    </div>
+                    <div class="mailing__form-wrapper">
+                        <h2 class="mailing__title title-md">
+                            Подпишитесь на новости
+                        </h2>
+                        <form class="mailing__form">
+                            <label class="mailing__label">
+                                <input
+                                    class="mailing__input"
+                                    type="email"
+                                    name="email"
+                                    placeholder="Ваш e-mail"
+                                />
+                            </label>
+                            <button class="mailing__send">Подписаться</button>
+                            <label class="mailing__checkbox-label">
+                                <input
+                                    class="mailing__checkbox"
+                                    type="checkbox"
+                                />
+                                Я ознакомлен(а) с политикой конфиденциальности и
+                                согласен(а) с обработкой персональных данных
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <a class="footer__logo" href="/">
+                    <img
+                        class="footer__logo-img"
+                        src="./images/dyson-logo-img.png"
+                        width="183"
+                        height="77"
+                        alt="Логотип Dyson"
+                    />
+                </a>
+                <div class="footer__menu-wrapper">
+                    <nav class="footer__menu footer__company">
+                        <a
+                            class="footer__menu-title footer__menu-accent"
+                            href="#"
+                            >О компании</a
+                        >
+                    </nav>
+                    <nav class="footer__menu footer__shop">
+                        <h2 class="footer__menu-title">Магазин</h2>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Фены Dyson Supersonic</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Стайлеры Dyson Airwrap</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Выпрямители Dyson Corrale</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Пылесосы</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Климатическая техника</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Освещение</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Аксессуары</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu footer__info">
+                        <h2 class="footer__menu-title">Общая информация</h2>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Новости</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Доставка</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Гарантия</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Оплата товара</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Свяжитесь с нами</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Договор оферты</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu footer__stock">
+                        <h2 class="footer__menu-title">Акции</h2>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Подарочная коллекция</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link"
+                                    >Эксклюзивные предложения</a
+                                >
+                            </li>
+                            <li class="footer__menu-item">
+                                <p class="footer__copyright">
+                                    Интернет-магазин dysmarket.ru, 2022 © Все
+                                    права защищены.
+                                </p>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu footer__logic">
+                        <h2 class="footer__menu-title">Отдел логистики:</h2>
+                        <a
+                            href="tel:+79998004554"
+                            class="footer__menu-link footer__menu-phone"
+                            >+7 (999) 800-45-54</a
+                        >
+                        <div class="footer__social">
+                            <ul class="footer__social-list">
+                                <li class="footer__social-item">
+                                    <a
+                                        href="#"
+                                        class="footer__social-link"
+                                        aria-label="Телеграмм"
+                                        title="Телеграмм"
+                                    >
+                                        <svg
+                                            class="footer__social-wrapper"
+                                            width="40"
+                                            height="40"
+                                        >
+                                            <use
+                                                class="footer__social-icon"
+                                                href="./icons/social-media-sprite.svg#telegram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a
+                                        href="#"
+                                        class="footer__social-link"
+                                        aria-label="ВК"
+                                        title="ВК"
+                                    >
+                                        <svg
+                                            class="footer__social-wrapper"
+                                            width="40"
+                                            height="40"
+                                        >
+                                            <use
+                                                class="footer__social-icon"
+                                                href="./icons/social-media-sprite.svg#vk"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a
+                                        href="#"
+                                        class="footer__social-link"
+                                        aria-label="Ютуб"
+                                        title="Ютуб"
+                                    >
+                                        <svg
+                                            class="footer__social-wrapper"
+                                            width="40"
+                                            height="40"
+                                        >
+                                            <use
+                                                class="footer__social-icon"
+                                                href="./icons/social-media-sprite.svg#youtube"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <div class="modal">
+            <div class="modal__window modal-cart" data-modal-window="cart">
+                <button
+                    class="modal__close"
+                    aria-label="Закрыть"
+                    title="Закрыть"
+                    data-modal-close
+                >
+                    <svg width="40" height="40">
+                        <use
+                            class="modal__close-icon"
+                            href="./icons/main-sprite.svg#cross"
+                        ></use>
+                    </svg>
+                </button>
+                <div class="modal__content modal-cart__content">
+                    <h2 class="modal-cart__title title-sm">Корзина</h2>
+                    <div class="modal-cart__product">
+                        <p class="modal-cart__info">Корзина пуста</p>
+                    </div>
+                    <div class="modal-cart__wrapper">
+                        <div class="modal-cart__price-result">
+                            <p class="modal-cart__result">Итого:</p>
+                            <p class="modal-cart__prise">0 ₽</p>
+                        </div>
+                        <button class="modal-cart__buy">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__window modal-review" data-modal-window="review">
+                <button
+                    class="modal__close"
+                    aria-label="Закрыть"
+                    title="Закрыть"
+                    data-modal-close
+                >
+                    <svg width="40" height="40">
+                        <use
+                            class="modal__close-icon"
+                            href="./icons/main-sprite.svg#cross"
+                        ></use>
+                    </svg>
+                </button>
+                <div class="modal__content modal-review__content">
+                    <h2 class="modal-review__title title-sm">Ваш отзыв</h2>
+                    <form class="modal-review__form">
+                        <label class="modal-review__label" for="title">
+                            Заголовок
+                        </label>
+                        <input
+                            class="modal-review__input"
+                            type="text"
+                            id="title"
+                            placeholder="Хороший фен"
+                        />
+                        <label class="modal-review__label" for="message"
+                            >Отзыв</label
+                        >
+                        <textarea
+                            class="modal-review__textarea"
+                            id="message"
+                            placeholder="Сообщение"
+                        ></textarea>
+                        <div class="modal-review__wrapper">
+                            <p class="modal-review__grade">
+                                <span class="modal-review__grade-accent"
+                                    >5</span
+                                >
+                                / 5
+                            </p>
+                            <ul class="modal-review__star-list">
+                                <li class="modal-review__star-item">
+                                    <img
+                                        class="modal-review__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="modal-review__star-item">
+                                    <img
+                                        class="modal-review__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="modal-review__star-item">
+                                    <img
+                                        class="modal-review__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="modal-review__star-item">
+                                    <img
+                                        class="modal-review__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                                <li class="modal-review__star-item">
+                                    <img
+                                        class="modal-review__star"
+                                        src="./icons/reviews-star.svg"
+                                        width="25"
+                                        height="24"
+                                        alt="звездочка"
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="modal-review__submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
