@@ -1,7 +1,7 @@
 // Задача 1.
 // Напишите условие, которое будет проверять чётное ли число, используйте оператор if.
 const number = 5;
-if (number % 2 == 0) {
+if (number % 2 === 0) {
     console.log("Число четное");
 } else {
     console.log("Число нечетное");
@@ -15,17 +15,9 @@ if (number % 2 == 0) {
 //    2.3. Если age больше 65 – скидка 30%.
 // 3. Выведите значение discount в консоль.
 // 4. *Дополнительное задание: перепишите задачу на switch-case.
-const age = 19;
-let discount = 0;
-const result =
-    age < 18
-        ? (discount = 10)
-        : age >= 18 && age <= 65
-          ? (discount = 20)
-          : age > 65
-            ? (discount = 30)
-            : console.log("Странный возраст");
-console.log(`скидка ${result}%`);
+const age = 66;
+let discount = age < 18 ? 10 : age <= 65 ? 20 : 30;
+console.log(`скидка ${discount}%`);
 
 // switch (true) {
 //     case age < 18:
@@ -47,13 +39,11 @@ console.log(`скидка ${result}%`);
 //     то выведите сообщение "Доступ разрешен", иначе — "Доступ запрещен".
 // 3. Используйте prompt для ввода имени пользователя и пароля.
 const userName = prompt("Введите имя пользователя: ", "user");
-const password = +prompt("Введите пароль: ", 123456);
-if (userName === "admin" || userName === "user") {
-    if (password === 123456) {
-        console.log("Доступ разрешен");
-    } else {
-        console.log("Доступ запрещен");
-    }
+const password = prompt("Введите пароль: ", 123456);
+if ((userName === "admin" || userName === "user") && password === "123456") {
+    console.log("Доступ разрешен");
+} else {
+    console.log("Доступ запрещен");
 }
 
 // *Задача 4.
