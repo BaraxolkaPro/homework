@@ -21,8 +21,10 @@ const modifications = {
     isCompleted: false,
     number: 40,
 };
-const cloneAndModify = (object, modifications) =>
-    (newObj = { ...object, ...modifications });
+const cloneAndModify = (object, modifications) => ({
+    ...object,
+    ...modifications,
+});
 const secondObj = cloneAndModify(task, modifications);
 for (const so in secondObj) {
     console.log(`${so}: `, secondObj[so]);
