@@ -1,0 +1,76 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.modal-cart {
+    width: 70%;
+}
+
+@media (width > 768px) {
+    .modal-cart__content {
+        margin-inline: auto;
+        width: 50%;
+    }
+}
+
+@media (width <= 768px) {
+    .modal-cart__content {
+        margin-inline: auto;
+        width: 100%;
+    }
+}
+
+.modal-cart__product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+    height: 100%;
+    min-height: 100px;
+}
+
+.modal-cart__info {
+    text-align: center;
+}
+
+.modal-cart__wrapper {
+    border-top: 1px solid var(--main-color);
+    padding-top: 10px;
+}
+
+.modal-cart__price-result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modal-cart__buy {
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: var(--bg-main-color);
+    background-color: var(--main-color);
+    -webkit-transition: background-color var(--transition-time);
+    transition: background-color var(--transition-time);
+}
+
+@media (any-hover: hover) {
+    .modal-cart__buy:hover {
+        background-color: var(--accent-color);
+    }
+}

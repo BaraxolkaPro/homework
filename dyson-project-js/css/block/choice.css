@@ -1,0 +1,170 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+@media (width > 768px) {
+    .choice__title {
+        margin-bottom: 60px;
+    }
+}
+
+@media (width <=768px) and (width > 575px) {
+    .choice__title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (width <=575px) {
+    .choice__title {
+        margin-bottom: 30px;
+    }
+}
+
+.choice__cards-wrapper {
+    display: -ms-grid;
+    display: grid;
+}
+
+@media (width > 1060px) {
+    .choice__cards-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(326px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (width <=1060px) {
+    .choice__cards-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (width <=992px) and (width > 575px) {
+    .choice__cards-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (width <=575px) {
+    .choice__cards-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(263px, 1fr));
+        gap: 10px;
+    }
+}
+
+.choice__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+@media (width > 575px) {
+    .choice__card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 26px;
+        padding-bottom: 46px;
+    }
+}
+
+@media (width <=575px) {
+    .choice__card {
+        gap: 57px;
+        padding-block: 30px;
+    }
+}
+
+@media (width <=768px) {
+    .choice__card-image {
+        width: 50px;
+        height: 54px;
+    }
+}
+
+@media (width <=575px) {
+    .choice__card-image {
+        margin-left: 44px;
+    }
+}
+
+.choice__card-title {
+    font-family: var(--second-family);
+    color: var(--secondary-color);
+    white-space: nowrap;
+}
+
+@media (width > 992px) {
+    .choice__card-title {
+        font-size: 20px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .choice__card-title {
+        font-size: 18px;
+    }
+}
+
+@media (width <=768px) and (width > 575px) {
+    .choice__card-title {
+        font-size: 14px;
+    }
+}
+
+@media (width <=575px) {
+    .choice__card-title {
+        font-size: 13px;
+    }
+}
+
+@media (width > 575px) {
+    .choice__card-title {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+.choice__card-description {
+    margin-top: 13px;
+    font-weight: 300;
+    line-height: 130%;
+    color: var(--secondary-color);
+}
+
+@media (width > 992px) {
+    .choice__card-description {
+        font-size: 18px;
+    }
+}
+
+@media (width <=992px) and (width > 768px) {
+    .choice__card-description {
+        font-size: 15px;
+    }
+}
+
+@media (width <=768px) {
+    .choice__card-description {
+        font-size: 12px;
+    }
+}
+
+@media (width > 575px) {
+    .choice__card-description {
+        text-align: center;
+    }
+}
